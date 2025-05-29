@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+body {
+      font-family: 'Rubik', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #0d5c2d;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 320px;
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #0d5c2d;
+    }
+    .card h3 {
+      margin: 5px 0;
+      color: #e67e22;
+    }
+    .card ul {
+      padding-left: 20px;
+      color: #555;
+    }
+    .card p {
+      color: #444;
+    }
+    .italic {
+      font-style: italic;
+      color: #666;
+    }
+    h1, h2, h3, h4 {
+    font-family: 'Poppins';
+}
